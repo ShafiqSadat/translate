@@ -27,7 +27,7 @@ local text = 'Hi 👋 '..msg.from.first_name..'\nplease select yor language 😊
         local text1 = ''
         if matches[1] == 'langfa' then
 			text1 = 'زبان تنظیم شد!'
-            text = 'دوست عزیز '..msg.from.first_name..' به ربات ترجمه خوش اومدی 😊🌹\nبرای ترجمه کلمه یا جمله فقط کافیه متنتو برای ما بفرستی'
+            text = 'دوست عزیز '..msg.from.first_name..' به ربات مترجم خوش آمدید 😊🌹\nبرای ترجمه کلمه یا جمله فقط کافیه متن را برای من بفرستید'
 			client:set('UserLnag'..msg.from.id, 'FA')
         end
 		if matches[1] == 'langen' then
